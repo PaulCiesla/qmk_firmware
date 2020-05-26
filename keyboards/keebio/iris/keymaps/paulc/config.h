@@ -19,3 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // #define USE_I2C
 #define EE_HANDS
+
+//LED config
+#undef RGBLED_NUM
+#define RGBLED_NUM 16
+#define RGBLED_SPLIT { 8, 8 }
